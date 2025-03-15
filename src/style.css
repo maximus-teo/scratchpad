@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: inherit;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(59, 59, 59);
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(to bottom, #416266, #44275c);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+nav {
+    color: white;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 80vw;
+    padding: 25px 0;
+}
+
+a {
+    font-weight: normal;
+    font-size: 1.2em;
+    padding-left: 50px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+}
+
+a:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: transparent;
+}
+
+a.titlelogo {
+    font-family: "Fraunces", serif;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 0 25px;
+}
+
+p {
+    padding: 10px;
+}
+
+.div1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    border-radius: 10px;
+}
+
+b, strong {
+    font-weight: bold !important;
+    font-family: inherit !important;
+}
+
+em, i {
+    font-style: italic !important;
+    font-family: inherit !important;
+}
+
+u {
+    text-decoration: underline !important;
+    font-family: inherit !important;
+}
+
+.editable {
+    text-align: left;
+    width: 80vw;
+    height: 55vh;
+    padding: 30px;
+    border: none;
+    outline: none;
+    margin: 30px 0;
+    resize: none;
+    overflow: auto;
+    color: #ffffff;
+    font-size: 1.2em;
+}
+
+.editable .h1 {
+    font-size: 3rem;
+    text-decoration-thickness: auto;
+    font-family: inherit;
+}
+
+.editable .h2 {
+    font-size: 2.5rem;
+    text-decoration-thickness: auto;
+    font-family: inherit;
+}
+
+.editable .h3 {
+    font-size: 2rem;
+    text-decoration-thickness: auto;
+    font-family: inherit;
+}
+
+.editable .h4 {
+    font-size: 1.5rem;
+    text-decoration-thickness: auto;
+    font-family: inherit;
+}
+
+.editable .normal {
+    font-size: 1.2rem;
+    text-decoration-thickness: auto;
+    font-family: inherit;
+}
+
+.editable .Arial {
+    font-family: "Arial", sans-serif;
+}
+
+.editable .Courier {
+    font-family: "Courier New", monospace;
+}
+
+.editable .Georgia {
+    font-family: "Georgia", serif;
+}
+
+.editable .Verdana {
+    font-family: "Verdana", sans-serif;
+}
+
+.style_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* horizontal */
+    align-items: center;
+    /* vertical */
+    padding-bottom: 20px;
+}
+
+.style_buttons {
+    width: fit-content;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+}
+
+.style_buttons:focus {
+    background:rgb(37, 37, 37)
+}
+
+.style_buttons:hover {
+    background:rgb(37, 37, 37)
+}
+
+.style_buttons:active {
+    background:rgb(37, 37, 37)
+}
