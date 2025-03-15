@@ -68,10 +68,18 @@ a.titlelogo {
 }
 
 p {
+    font-size:1.2rem;
     padding: 10px;
 }
 
-.div1 {
+ul {
+    font-size:1.2rem;
+    text-align: left;
+    margin-left: 3em;
+    line-height: 2;
+}
+
+.editorbox {
     text-align: center;
     padding: 20px;
     background-color: #141414;
@@ -96,8 +104,8 @@ u {
 .editable {
     text-align: left;
     width: 80vw;
-    height: 55vh;
-    padding: 30px;
+    height: 60vh;
+    padding: 40px;
     border: none;
     outline: none;
     margin: 30px 0;
